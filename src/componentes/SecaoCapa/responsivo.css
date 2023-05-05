@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .banner .box-titulo h1 {
+        font-size: 40px;
+        max-width: 350px;
+    }
+    .banner .box-titulo p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .banner {
+        background-position: 89% center;
+    }
+    .banner .box-titulo {
+        background-color: rgba(0,0,0,0.6);
+    }
+}

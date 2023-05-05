@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .container-contatos {
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 550px) {
+    .container-contatos {
+        padding: 60px 10px;
+    }
+    .box-contatos {
+        flex-direction: column;
+    }
+    .box-contatos .box {
+        align-items: center;
+    }
+    .box-contatos .box figure {
+        width: 150px;
+    }
+}

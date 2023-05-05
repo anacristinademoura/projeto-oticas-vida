@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .container-produtos {
+        padding: 60px 20px;
+    }
+    .container-cards-produtos .card h4 {
+        font-size: 22px;
+    }
+    .container-cards-produtos .card img {
+        max-height: 100px;
+    }
+    .container-cards-produtos .card p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container-produtos {
+        padding: 60px 10px;
+    }
+    .container-cards-produtos .card {
+        width: 100%;
+    }
+    .lista{
+        align-items: flex-start;
+    }
+}

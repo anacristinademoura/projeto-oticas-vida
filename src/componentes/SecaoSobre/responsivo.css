@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .container-sobre {
+        padding: 60px 20px;
+    }
+
+    .container-cards-sobre .card {
+        padding: 15px;
+    }
+
+    .container-cards-sobre .card h4 {
+        font-size: 22px;
+    }
+
+    .container-cards-sobre .card p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container-sobre {
+        padding: 60px 10px;
+    }
+
+    .container-cards-sobre {
+        flex-direction: column;
+    }
+
+    .container-cards-sobre img,
+    .card {
+        width: 100%;
+        height: 300px;
+    }
+}

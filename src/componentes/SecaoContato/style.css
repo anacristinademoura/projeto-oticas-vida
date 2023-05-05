@@ -1,0 +1,35 @@
+.container-contatos {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  background-color: #05031b;
+}
+
+.box-contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-contatos .box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+.box-contatos .box figure {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.box figure img {
+  width: 18px;
+}
+
+.box figure figcaption {
+  font-size: 14px;
+  margin-left: 10px;
+}

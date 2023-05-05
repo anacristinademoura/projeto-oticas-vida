@@ -1,0 +1,12 @@
+@media (max-width: 550px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+}

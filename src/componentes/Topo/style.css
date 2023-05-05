@@ -1,0 +1,26 @@
+header {
+    padding: 10px 15px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img {
+    width: 150px;
+}
+
+.menu nav a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.menu nav a:hover {
+    color: #ad5555;
+}

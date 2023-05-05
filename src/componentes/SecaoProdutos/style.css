@@ -1,0 +1,55 @@
+.container-produtos {
+  width: 100%;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.container-cards-produtos {
+  margin: 50px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.container-cards-produtos .card {
+  background-color: #f6f6f6;
+  width: calc(50% - 15px);
+  padding: 20px 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cards-produtos .card h4 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.container-cards-produtos .card img {
+  width: 80%;
+  max-height: 150px;
+  margin: 30px 0;
+  object-fit: contain;
+}
+
+.container-cards-produtos .card p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.lista {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista li {
+  text-align: left;
+  margin: 5px;
+}
