@@ -10,7 +10,7 @@ export default function SecaoSobre () {
             </div>
 
             <div className="container-cards-sobre">
-                <img src={process.env.PUBLIC_URL + '/assets/loja.png'} alt=""/>
+                <img src='/assets/loja.png' alt=""/>
 
                 <div className="card">
                     <h4>Nossas Filiais</h4>
@@ -22,7 +22,7 @@ export default function SecaoSobre () {
                     <p>Nossa equipe possui é treinada para te atender</p>
                 </div>
 
-                <img src={process.env.PUBLIC_URL + '/assets/atendimento.png'} alt=""/>
+                <img src='/assets/atendimento.png' alt=""/>
             </div>
         </section>
     );
